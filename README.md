@@ -12,62 +12,94 @@ The ability to toggle fullscreen mode with a button click.
 
 
 
-# Table of Contents :-
-Overview
-Features
-Requirements
-Installation and Setup
-How to Use
-How to Run in VS Code
+Here is the documentation in the same format as the one provided:
 
-# Overview :-
+---
+
+## Advanced Video Player
+### Table of Contents
+- Overview
+- Features
+- Requirements
+- Installation and Setup
+- How to Use
+- How to Run in VS Code
+
+### Overview
 This repository contains a Python-based software application for video playback:
 
-Advanced Video Player: A feature-rich video player built with PyQt5 and VLC, capable of playing various video formats and providing a simple, clean user interface for controlling video playback.
+**Advanced Video Player**: A feature-rich video player built with PyQt5 and VLC, capable of playing various video formats and providing a simple, clean user interface for controlling video playback.
 
-# Features :-
-Play and Pause: Toggle between playing and pausing the video.
-Stop: Stop video playback and reset the playhead.
-Volume Control: Adjust the volume of the video.
-Seek Control: Jump to different positions in the video using a seek slider.
-Fullscreen Mode: Toggle between fullscreen and windowed mode.
-Load Video: Load and play videos in various formats (.mp4, .avi, .mkv, .mov, .flv).
-Error Handling: Display error messages if any issues occur during playback.
+### Features
+- **Play and Pause**: Toggle between playing and pausing the video.
+- **Stop**: Stop video playback and reset the playhead.
+- **Volume Control**: Adjust the volume of the video.
+- **Seek Control**: Jump to different positions in the video using a seek slider.
+- **Fullscreen Mode**: Toggle between fullscreen and windowed mode.
+- **Load Video**: Load and play videos in various formats (`.mp4`, `.avi`, `.mkv`, `.mov`, `.flv`).
+- **Error Handling**: Display error messages if any issues occur during playback.
 
-#Requirements
+### Requirements
 To run the Advanced Video Player, you'll need the following Python libraries:
-
--PyQt5
--python-vlc
+- `PyQt5`
+- `python-vlc`
 
 Install the dependencies via pip:
-  pip install PyQt5 python-vlc
 
-# Installation and Setup
-1.Clone the Repository: Clone this repository to your local machine:
-git clone https://github.com/your-repo-url.git
-2.Navigate to the Project Directory:
-cd your-repo-directory
-3.Install the Dependencies: Install the required Python packages listed above by running the following command:
-pip install -r requirements.txt
-4.Ensure Python is Installed: Make sure you have Python 3.x installed. You can verify by running:
-python --version
+```bash
+pip install PyQt5 python-vlc
+```
 
-#How to Use
-1.Launch the Application: Run the Advanced Video Player application by executing the Python file:
-py VideoPlayer.py
-2.Usage:
-Load a Video: Click the "Load Video" button to select a video file (.mp4, .avi, .mkv, .mov, .flv).
-Play/Pause Video: Use the "Play" button to start playback, and "Pause" to pause it.
-Stop Video: Click the "Stop" button to stop playback and reset the playhead.
-Adjust Volume: Use the volume slider to control the audio level.
-Seek in Video: Drag the seek slider to jump to different parts of the video.
-Toggle Fullscreen: Use the "Fullscreen" button to switch between fullscreen and windowed mode.
+### Installation and Setup
+1. **Clone the Repository**: Clone this repository to your local machine:
 
-#How to Run in VS Code
-1.Open the Project in VS Code: Launch Visual Studio Code and open the project directory.
-2.Install the Python Extension: Ensure the Python extension is installed in VS Code.
-3.Run the Application: Open VideoPlayer.py in the editor and click the "Run" button or use the terminal to execute the script:
-python VideoPlayer.py
+   ```bash
+   git clone https://github.com/your-repo-url.git
+   ```
+
+2. **Navigate to the Project Directory**:
+
+   ```bash
+   cd your-repo-directory
+   ```
+
+3. **Install the Dependencies**: Install the required Python packages listed above by running the following command:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Ensure Python is Installed**: Make sure you have Python 3.x installed. You can verify by running:
+
+   ```bash
+   python --version
+   ```
+
+### How to Use
+1. **Launch the Application**: Run the Advanced Video Player application by executing the Python file:
+
+   ```bash
+   python VideoPlayer.py
+   ```
+
+2. **Usage**:
+   - **Load a Video**: Click the "Load Video" button to select a video file (`.mp4`, `.avi`, `.mkv`, `.mov`, `.flv`).
+   - **Play/Pause Video**: Use the "Play" button to start playback, and "Pause" to pause it.
+   - **Stop Video**: Click the "Stop" button to stop playback and reset the playhead.
+   - **Adjust Volume**: Use the volume slider to control the audio level.
+   - **Seek in Video**: Drag the seek slider to jump to different parts of the video.
+   - **Toggle Fullscreen**: Use the "Fullscreen" button to switch between fullscreen and windowed mode.
+
+### How to Run in VS Code
+1. **Open the Project in VS Code**: Launch Visual Studio Code and open the project directory.
+2. **Install the Python Extension**: Ensure the Python extension is installed in VS Code.
+3. **Run the Application**: Open `VideoPlayer.py` in the editor and click the "Run" button or use the terminal to execute the script:
+
+   ```bash
+   python VideoPlayer.py
+   ```
+
+---
+
 
 
