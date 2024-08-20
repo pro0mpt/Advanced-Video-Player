@@ -12,8 +12,6 @@ The ability to toggle fullscreen mode with a button click.
 
 
 
-Here is the documentation in the same format as the one provided:
-
 ---
 
 ## Advanced Video Player
